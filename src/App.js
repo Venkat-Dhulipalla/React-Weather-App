@@ -31,8 +31,9 @@ class App extends React.Component {
   };
 
   makeApiCall = async (city) => {
+    const apiKey = process.env.REACT_APP_OPENWEATHERMAP_API_KEY;
     const api_data = await fetch(
-      `https://api.openweathermap.org/data/2.5/forecast?q=${city}&APPID=1bbc35eb3bdfbcdb552bd13c8a3d5a42`
+      `https://api.openweathermap.org/data/2.5/forecast?q=${city}&APPID=${apiKey}`
     ).then((resp) => resp.json());
 
     if (api_data.cod === "200") {

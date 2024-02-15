@@ -23,7 +23,7 @@ The Weather App is a simple web application built with React.js. It provides use
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/Venkat-Dhulipalla/React-Weather-App.git
+git clone https://github.com/your-username/weather-app.git
 
 ```
 
@@ -54,3 +54,15 @@ npm start
 - Enter the name of the city you want to check the weather for in the input field.
 - Press Enter or click the search button.
 - View the current weather and 5-day forecast for the specified city.
+
+## Live Demo
+
+Check out the live demo [here](https://genuine-parfait-ada97f.netlify.app/).
+
+## Note
+
+To use the Weather App, you need to obtain an API key from OpenWeatherMap. Create a file named `.env` in the project root directory and add the following line, replacing `your-api-key-goes-here` with your actual OpenWeatherMap API key:
+
+```plaintext
+REACT_APP_OPENWEATHERMAP_API_KEY=your-api-key-goes-here
+```
