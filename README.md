@@ -4,6 +4,10 @@
 
 The Weather App is a simple web application built with React.js. It provides users with current weather conditions and a 5-day forecast for a specified city. The application utilizes the OpenWeatherMap API to fetch weather data.
 
+## Live Demo
+
+Check out the live demo [here](https://weather-app-venkat.netlify.app/).
+
 ## Features
 
 - Display current weather information including temperature, description, and weather icon.
@@ -55,9 +59,7 @@ npm start
 - Press Enter or click the search button.
 - View the current weather and 5-day forecast for the specified city.
 
-## Live Demo
 
-Check out the live demo [here](https://genuine-parfait-ada97f.netlify.app/).
 
 ## Note
 
